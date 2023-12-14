@@ -8,7 +8,8 @@ let num2 = 2;
 multiply = num1 * num2;
 console.log(multiply);
 
-let random = Math.ceil(Math.random) 
+let random = Math.abs(Math.floor(Math.random() * 1000)) + 1; 
+
 
 let mod;
 let num3 = 16;
